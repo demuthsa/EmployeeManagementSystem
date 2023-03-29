@@ -1,0 +1,16 @@
+{
+  "name": "client-express-server-employee-tracker",
+  "version": "1.0.0",
+  "description": "This express server hosts the /dist vite react build folder in order to serve the front end application to the user when they click the link. This express server is ideally running on a forever process within the OSU flip server.",
+  "main": "client-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node client-server.js"
+  },
+  "author": "zac maes and sam demuth",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "forever": "^4.0.3"
+  }
+}
